@@ -300,4 +300,10 @@ module powerbi.visuals.plugins {
         capabilities: OwlGauge.capabilities,
         create: () => new OwlGauge()
     };
+
+    export var radarChart: IVisualPlugin = {
+        name: 'radarChart',
+        capabilities: RadarChart.capabilities,
+        create: () => new RadarChart()
+    };
 }
